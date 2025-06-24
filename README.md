@@ -16,16 +16,16 @@ pip install -r requirements.txt
 sudo apt install poppler-utils tesseract-ocr tesseract-ocr-ind -y
 
 ## Struktur Folder
-project-root/
-├── tahap_1_5.py
-├── requirements.txt
-├── /Data
-│   ├── /raw/               ← Hasil OCR teks
-│   ├── /processed/         ← Hasil representasi kasus
-│   ├── /results/           ← Hasil prediksi
-│   └── /eval/              ← Query & evaluasi model
-├── /CSV                   ← Hasil scraping awal
-└── /PDF                   ← PDF putusan
+###project-root/
+###├── tahap_1_5.py
+###├── requirements.txt
+###├── /Data
+###│   ├── /raw/               ← Hasil OCR teks
+###│   ├── /processed/         ← Hasil representasi kasus
+###│   ├── /results/           ← Hasil prediksi
+###│   └── /eval/              ← Query & evaluasi model
+###├── /CSV                   ← Hasil scraping awal
+###└── /PDF                   ← PDF putusan
 
 
 ## Menjalankan Pipeline End-to-End
