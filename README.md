@@ -53,10 +53,10 @@ Output: predictions.csv
 ### Tahap 5: Evaluasi & Visualisasi
 Menghitung accuracy, precision, recall, F1
 Membuat plot perbandingan performa
-```
+
 
 Contoh Query Evaluasi
-
+```
 json
 [
   {"query_id": "q1", "query_text": "Penipuan jual beli rumah secara online"},
@@ -65,7 +65,7 @@ json
   {"query_id": "q4", "query_text": "Mengaku pegawai bank dan menipu korban"},
   {"query_id": "q5", "query_text": "Transaksi fiktif pengadaan barang"}
 ]
-
+```
 
 Output Utama
 
