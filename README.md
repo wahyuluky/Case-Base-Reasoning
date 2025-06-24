@@ -34,24 +34,24 @@ project-root/
 Jalankan `tahap_1_5.py`, atau secara bertahap:
 run_scraper()  # dari tahap_1_5.py
 
-# lanjutkan OCR PDF → hasil ke /Data/raw/*.txt
+### lanjutkan OCR PDF → hasil ke /Data/raw/*.txt
 
 
 ### Tahap 2: Representasi Kasus
-# Mengubah hasil scraping & OCR menjadi dataset terstruktur
-# Output: cases.csv
+Mengubah hasil scraping & OCR menjadi dataset terstruktur
+Output: cases.csv
 
 ### Tahap 3: Case Retrieval
-# TF-IDF: retrieve(query, k=3)
-# BERT: retrieve_bert(query, k=3)
+TF-IDF: retrieve(query, k=3)
+BERT: retrieve_bert(query, k=3)
 
 ### Tahap 4: Solution Reuse
-# predict_outcome(query)
-# Output: predictions.csv
+predict_outcome(query)
+Output: predictions.csv
 
 ### Tahap 5: Evaluasi & Visualisasi
-# Menghitung accuracy, precision, recall, F1
-# Membuat plot perbandingan performa
+Menghitung accuracy, precision, recall, F1
+Membuat plot perbandingan performa
 ```
 
 ## Contoh Query Evaluasi
